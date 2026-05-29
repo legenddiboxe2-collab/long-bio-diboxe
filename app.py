@@ -10,7 +10,7 @@ from aiohttp import web
 load_dotenv()
 
 TOKEN = os.getenv("DISCORD_TOKEN")
-API_URL = "http://np2.npcloud.online:2007/update_bio?access_token={accesstoken}&bio={bio}"
+API_URL = "http://np2.npcloud.online:2007/update_bio"
 PORT = int(os.getenv("PORT", 5000))
 
 intents = discord.Intents.default()
